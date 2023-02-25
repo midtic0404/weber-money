@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+weber-money
 
 # Go test artifacts
 *.test
