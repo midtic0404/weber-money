@@ -30,8 +30,8 @@ func main() {
 	}
 
 	// Scrape tuition for in state and out of state
-	inState = document.Find(inStateSelector).First().Text()
-	outState = document.Find(outStateSelector).First().Text()
+	inState = document.Find(inStateSelector).Text()
+	outState = document.Find(outStateSelector).Text()
 
 	fmt.Println("In state tuition: ", inState)
 	fmt.Println("Out of state tuition: ", outState)
